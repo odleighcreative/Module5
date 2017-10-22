@@ -1,0 +1,106 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   Middle Age Arts Style Sheet
+
+   Author:  Shannon O'Donnell
+   Date:    10/22/2017  
+
+   Filename:         maa.css
+   Supporting Files: 
+
+*/
+
+img {
+   border-width: 0px;
+}
+
+body {
+	background-image: URL(gbar.jpg);
+}
+
+p, li {
+	text-align: left;
+}
+
+a:link, a:hover, a:visited {
+	 color: white;
+}
+
+table, tr, td {
+	width: 100%;
+	max-width: 810px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#leftcol {
+	width: 165px;
+	vertical-align: top;
+	background-color: green;
+}
+
+#leftcol h4 {
+	color: yellow;
+}
+
+#footer {
+	vertical-align: bottom;
+	width: 165px;
+	background-color: green;
+}
+
+#rightcol {
+	width:645px;
+}
+
+#rightcol td {
+	vertical-align: top;
+	text-align: left;
+}
+
+#rightcol h4 {
+	color: red;
+	text-align: center;
+}
+
+#rightcol td {
+	vertical-align: top;
+	text-align: center;
+}
+
+#gutter {
+	width: 5px;
+}
+
+#aside1 {
+	width: 320px;
+	vertical-align: top;
+	background-color: yellow;
+}
+
+#aside1 h4 {
+	text-align: center;
+	color: black;
+}
+
+#aside2 {
+	width: 320px;
+	vertical-align: top;
+}
+
+#aside2 h4 {
+	text-align: center;
+	color: red;
+}
+
+#article1 {
+	width: 320px;
+	vertical-align: top;
+}
+
+#article1 img, #aside2 img {
+	float: right;
+}
