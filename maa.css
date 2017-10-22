@@ -29,7 +29,7 @@ a:link, a:hover, a:visited {
 	 color: white;
 }
 
-table, tr, td {
+table {
 	width: 100%;
 	max-width: 810px;
 	padding: 0px;
